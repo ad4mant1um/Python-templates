@@ -1,3 +1,3 @@
-# Python templates
+# Python GTK+ 3 templates
 
 ...
