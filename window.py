@@ -1,8 +1,8 @@
 import gi
-gi.require_version('gtk', '3.0')
-from gi.repository import gtk
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
 
-win = gtk.MyWindow()
-win.connect("destroy", gtk.main_quit)
+win = Gtk.Window()
+win.connect("destroy", Gtk.main_quit)
 win.show_all()
-gtk.main()
+Gtk.main()
