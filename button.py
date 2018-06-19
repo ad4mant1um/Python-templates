@@ -1,3 +1,5 @@
+# window with three buttons (LGPL-3.0) #
+
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
